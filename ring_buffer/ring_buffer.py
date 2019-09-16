@@ -58,5 +58,5 @@ class RingBuffer:
             return self.storage
         else:
             no_nones = [index for index in self.storage if index is not None]
-            # iterate of storage and create a no_nones model of storage without any blank or none values and return it.
+            # iterate of storage and populacreate a no_nones model of storage without any blank or none values and return it.
             return no_nones
